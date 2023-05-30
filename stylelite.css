@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    border: 1px solid red;
+    width: 100%;
+    height: 140px;
+    background-color: brown;
+    position: sticky;
+    top: 0;
+
+}
+.head h1{
+    text-align: center;
+    font-family: cursive;  
+      font-weight: 900;
+    font-size: 72px;
+    display: inline-block;
+    margin-left: 412px;
+}
+.logo img{
+    width: 155px;
+    height: 120px;
+}
+.logo{
+    display: inline-block;
+}
+.head :placeholder-shown{
+    font-weight: 500;
+}
+.login a{
+   
+    text-decoration: none;
+   color: black;
+}
+.login{
+    float: right;
+    margin: 20px 75px;
+    height: 25px;
+    width: 60px;
+}
+.login:hover{
+    background-color: bisque;
+   
+}
+.navbar{
+    border: 2px solid black;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+.navbar a:hover{
+   border-bottom: 2px solid black;
+   color: red;
+}
+.home a{
+ text-decoration: none;
+ color: black;
+ 
+}
+.home{
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    
+    margin-left: 155px;
+}
+.carousel img{
+    height: 370px;
+    z-index: 10;
+   
+}
+.fix{
+    z-index: 30;
+}
+#faq{
+    z-index: 20;
+}
+.ram{
+    background-color: rgb(210, 195, 195);
+    color: rgb(21, 18, 18);
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+    width: 215px;
+}
+.ram:hover{
+    background-color: blue;
+    color: rgb(27, 200, 62);
+}
+.list h1{
+    text-align: center;
+    text-decoration:  underline;
+}
+.list p{
+    border:2px solid #817474;
+    box-shadow: 10px 5px 5px rgb(43, 41, 41);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 75px;
+}
+.last{
+    border: 2px solid transparent;
+    background-color: rgb(48, 46, 43);
+    height: 170px;
+    color: aliceblue;
+   padding: 57px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon{
+    background-color: black;
+    height: 45px;
+}
+.icon img{
+    width: 45px;
+    height: 40px;
+    margin-left: 100px;
+    filter: invert();
+}
+@media only screen and (max-width: 1510px){
+    .head input {
+        margin-top: -55px;
+        
+    }
+}

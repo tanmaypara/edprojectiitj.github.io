@@ -1,0 +1,30 @@
+.acad{
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.question{
+    border: 2px solid transparent;
+    box-shadow: 10px 5px 5px rgb(125, 123, 123);
+    padding: 50px;
+    background-color: aliceblue;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.qa{
+    margin: 50px;
+}
+.qa p{
+    padding: 50px;
+    font-size: 1.3em;
+    color: #1a55cb;
+}
+.qa summary{
+    font-size: 1.8em;
+    color: brown;
+}
+.qa h6{
+    font-size: 1.2em;
+    margin-top: 20px;
+
+}

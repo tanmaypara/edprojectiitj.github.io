@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(217, 212, 212);
+    
+    
+    color: rgb(3, 3, 3);
+
+}
+.headl{
+    border: 2px solid rgb(129, 198, 223);
+    height: 200px;
+    background-image: url('head.png');
+    background-size: 100% 100%;
+    
+ }
+ .logo {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    position: fixed;
+}
+
+.logo img {
+    width: 150px;
+    height: 90px;
+}
+
+.logo div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.head{
+    border: 3px solid blueviolet;
+    width: 20%;
+    height: 80%;
+    background-color: rgb(217, 212, 232);
+    display: inline-block;
+    margin: 10% 37%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(93 82 82);
+}
+h1{
+    text-align: left;
+    color: rgb(22, 23, 24);
+}
+.form{
+    margin: 5px;
+}
+.form input{
+    margin: 10px;
+   
+    width: 78%;
+    margin-left: 10%;
+}
+
+
+.class{
+    padding: 10px;
+}
+.continue{
+    width: 80%;
+    margin-left: 10%;
+    background-color: #d7c011;
+   height: 30px;
+   margin-top: 10px;
+}
+#new{
+  text-align: center;
+}
+#create{
+   background-color: beige;
+}
+.continue:hover{
+    cursor: pointer;
+    color: red;
+}
+.logo{
+    display: inline block;
+    border: 2px solid rgb(91, 110, 201);
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+ margin-left: 4%;
+ background-color: #7096db;
+   
+}
+@media only screen and (max-width: 498px){
+.head {
+    width: 70%;
+    margin: 29% 35%;
+}
+}

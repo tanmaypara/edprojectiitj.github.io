@@ -1,0 +1,17 @@
+
+.th{
+    border: 2px solid rgb(98, 69, 69);
+   width: 225px;
+   font-size: 20px;
+}
+.th1{
+    border: 2px solid rgb(98, 69, 69);
+   width: 225px;
+   color: brown;
+   font-size: 35px;
+   text-transform: uppercase;
+}
+.imageth{
+    height: 50px;
+    width: 50px;
+}
